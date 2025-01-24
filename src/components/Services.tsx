@@ -6,7 +6,7 @@ const Services = () => {
     {
       icon: <Scale className="w-12 h-12 mb-4 text-gray-800" />,
       title: 'Civel',
-      description: 'Assessoria jurídica em questões contratuais, responsabilidade Cível, direito do consumidor e família.',
+      description: 'Assessoria jurídica em questões contratuais, responsabilidade Cível e direito do consumidor',
       items: [
         'Contratos',
         'Responsabilidade Civil',
