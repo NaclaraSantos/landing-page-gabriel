@@ -10,8 +10,13 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center gap-2">
-            <Scale className="h-8 w-8 text-gray-800" />
-            <span className="text-xl font-semibold">Gabriel Couto</span>
+            {/* Local para adicionar a logo */}
+            <img 
+              src="/images/logoescritorio.jpeg" 
+              alt="Logo Gabriel Couto" 
+              className="h-12 w-42"
+            />
+         
           </div>
           
           <div className="hidden md:flex space-x-8">

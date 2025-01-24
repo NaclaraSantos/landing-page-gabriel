@@ -41,28 +41,28 @@ const Contact = () => {
                 <Phone className="w-6 h-6 text-gray-800 mt-1" />
                 <div>
                   <h4 className="font-semibold">Telefone</h4>
-                  <p className="text-gray-600">+55 (XX) XXXX-XXXX</p>
+                  <p className="text-gray-600">+55 (31) 975678257</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
                 <Mail className="w-6 h-6 text-gray-800 mt-1" />
                 <div>
                   <h4 className="font-semibold">E-mail</h4>
-                  <p className="text-gray-600">contato@gabrielcouto.adv.br</p>
+                  <p className="text-gray-600">advgabrielcouto@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
                 <MapPin className="w-6 h-6 text-gray-800 mt-1" />
                 <div>
                   <h4 className="font-semibold">Endereço</h4>
-                  <p className="text-gray-600">Nova Lima, MG</p>
+                  <p className="text-gray-600">Rua Marlene Alevato Ferrari, 16, Loja 02, Oswaldo Barbosa Pena II, em Nova Lima/MG - CEP 34002-068</p>
                 </div>
               </div>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h4 className="font-semibold mb-4">Horário de Atendimento</h4>
               <p className="text-gray-600">Segunda a Sexta: 09:00 - 18:00</p>
-              <p className="text-gray-600">Consultas online disponíveis para todo o mundo</p>
+              <p className="text-gray-600">Consultas online disponíveis para todo Brasil</p>
             </div>
           </div>
 

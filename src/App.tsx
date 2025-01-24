@@ -26,15 +26,15 @@ function App() {
               <div className="space-y-2">
                 <p className="flex items-center gap-2">
                   <Phone size={18} />
-                  <span>+55 (XX) XXXX-XXXX</span>
+                  <span>+55 (31) 975678257</span>
                 </p>
                 <p className="flex items-center gap-2">
                   <Mail size={18} />
-                  <span>contato@gabrielcouto.adv.br</span>
+                  <span>advgabrielcouto@gmail.com</span>
                 </p>
                 <p className="flex items-center gap-2">
                   <MapPin size={18} />
-                  <span>Nova Lima, MG</span>
+                  <span>Rua Marlene Alevato Ferrari, 16, Loja 02, Oswaldo Barbosa Pena II, em Nova Lima/MG - CEP 34002-068</span>
                 </p>
               </div>
             </div>
@@ -43,6 +43,10 @@ function App() {
               <ul className="space-y-2">
                 <li>Direito Civil</li>
                 <li>Direito Trabalhista</li>
+                <li>Direito do Consumidor</li>
+                <li>Fazenda Pública</li>
+                <li>Direito Bancário</li>
+                <li>Direito de Sucessão</li>
               </ul>
             </div>
             <div>

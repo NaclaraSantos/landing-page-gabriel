@@ -4,21 +4,22 @@ import { Award, BookOpen, Users } from 'lucide-react';
 const About = () => {
   return (
     <section id="about" className="py-20 bg-[#F4F4F4]">
-      <div className="container mx-auto px-4">
+     <div className="container mx-auto px-4">
         <h2 className="text-3xl font-playfair text-center mb-16">Sobre Gabriel Couto</h2>
         
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div>
             <img
-              src="/images/gabriel-photo.jpg" alt="Gabriel Photo"
+              src="/images/gabriel-photo.jpeg" alt="Gabriel Photo"
               className="rounded-lg shadow-lg w-full"
             />
           </div>
           
+          
           <div>
             <h3 className="text-2xl font-semibold mb-4">Formação e Experiência</h3>
             <p className="text-gray-700 mb-6">
-              Graduado pela Universidade Milton Campos e pós-graduado em Direito Civel e Trabalhista,
+              Graduado pela Faculdade de direito Milton Campos e pós-graduado em Direito Cível e Trabalhista,
               Dr. Gabriel possui uma sólida formação acadêmica e vasta experiência na área jurídica.
             </p>
             
@@ -27,7 +28,7 @@ const About = () => {
                 <Award className="w-6 h-6 text-gray-800 mt-1" />
                 <div>
                   <h4 className="font-semibold">Formação Acadêmica</h4>
-                  <p className="text-gray-600">Universidade Milton Campos</p>
+                  <p className="text-gray-600">Faculdade de direito Milton Campos</p>
                 </div>
               </div>
               
@@ -35,7 +36,7 @@ const About = () => {
                 <BookOpen className="w-6 h-6 text-gray-800 mt-1" />
                 <div>
                   <h4 className="font-semibold">Pós-Graduação</h4>
-                  <p className="text-gray-600">Direito Civel e Trabalhista</p>
+                  <p className="text-gray-600">Pós graduação trabalhista e Cível pela Fundação do Ministério Público (FMP) e Escola Superior da Advocacia (ESA)</p>
                 </div>
               </div>
               
@@ -43,7 +44,7 @@ const About = () => {
                 <Users className="w-6 h-6 text-gray-800 mt-1" />
                 <div>
                   <h4 className="font-semibold">Atendimento</h4>
-                  <p className="text-gray-600">Atendimento presencial em Nova Lima e online para todo o mundo</p>
+                  <p className="text-gray-600">Atendimento presencial em Nova Lima e online para todo Brasil</p>
                 </div>
               </div>
             </div>

@@ -5,13 +5,16 @@ const Services = () => {
   const services = [
     {
       icon: <Scale className="w-12 h-12 mb-4 text-gray-800" />,
-      title: 'Direito Civel',
-      description: 'Assessoria jurídica em questões contratuais, responsabilidade civil, direito do consumidor e família.',
+      title: 'Civel',
+      description: 'Assessoria jurídica em questões contratuais, responsabilidade Cível, direito do consumidor e família.',
       items: [
         'Contratos',
         'Responsabilidade Civil',
         'Direito do Consumidor',
-        'Direito de Família'
+        'Sucessões',
+        'Direito Imobiliário',
+        'Direito de Vizinhança',
+        'Direito Bancário'
       ]
     },
     {
@@ -66,7 +69,7 @@ const Services = () => {
 
         <div className="mt-16 text-center">
           <p className="text-xl text-gray-700 mb-8">
-            Atendimento presencial em Nova Lima e online para clientes em todo o mundo
+            Atendimento presencial em Nova Lima e online para clientes em todo Brasil
           </p>
           <a
             href="#contact"

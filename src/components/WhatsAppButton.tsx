@@ -5,7 +5,7 @@ const WhatsAppButton = () => {
   const message = encodeURIComponent(
     "Olá, gostaria de mais informações sobre os serviços do Dr. Gabriel Couto."
   );
-  const phoneNumber = "5531973499681"; // Replace with actual phone number
+  const phoneNumber = "5531975678257"; // Replace with actual phone number
 
   return (
     <a
